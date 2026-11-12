@@ -1,0 +1,9 @@
+# Verified target API
+paddleocr==3.7.0
+paddlepaddle==3.2.2
+opencv-python
+pymupdf
+numpy
+pyyaml
+rapidfuzz
+pytest

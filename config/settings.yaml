@@ -1,0 +1,21 @@
+version: "2.0.1"
+rendering:
+  dpi: 300
+  color: true
+preprocessing:
+  orientation_detection: true
+  deskew: true
+  max_skew_degrees: 5.0
+ocr:
+  engine: paddleocr
+  language: es
+  min_confidence: 0.50
+  device: null
+  use_doc_orientation_classify: false
+  use_doc_unwarping: false
+  use_textline_orientation: false
+diagnostics:
+  save_original: true
+  save_ocr_image: true
+  save_binary_image: true
+  save_ocr_overlay: true

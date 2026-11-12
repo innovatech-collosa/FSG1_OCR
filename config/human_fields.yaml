@@ -1,0 +1,70 @@
+fields:
+  obra:
+    aliases: ["OBRA"]
+    type: text
+  fecha_accidente:
+    aliases: ["FECHA ACCIDENTE", "FECHA DEL ACCIDENTE"]
+    type: date
+  hora_trabajo:
+    aliases: ["HORA TRABAJO", "HORA DE TRABAJO"]
+    type: text
+  hora_accidente:
+    aliases: ["HORA DEL DIA", "HORA DEL DÍA", "HORA DEL DIA (0-24H)", "HORA DEL DÍA (0-24H)"]
+    type: time
+  empresa:
+    aliases: ["EMPRESA"]
+    type: text
+  fecha_baja:
+    aliases: ["FECHA BAJA", "FECHA DE BAJA"]
+    type: date
+  nombre:
+    aliases: ["NOMBRE Y APELLIDOS", "NOMBRE"]
+    type: text
+  edad:
+    aliases: ["EDAD"]
+    type: integer
+  categoria_profesional:
+    aliases: ["CATEGORIA PROFESIONAL", "CATEGORÍA PROFESIONAL"]
+    type: text
+  parte_cuerpo_codigo:
+    aliases: ["PARTE DEL CUERPO LESIONADA", "PARTE CUERPO LESIONADA"]
+    type: integer
+  lesion_codigo:
+    aliases: ["DESCRIPCION DE LA LESION", "DESCRIPCIÓN DE LA LESIÓN"]
+    type: integer
+  pais:
+    aliases: ["PAIS", "PAÍS"]
+    type: text
+  provincia:
+    aliases: ["PROVINCIA"]
+    type: text
+  municipio:
+    aliases: ["MUNICIPIO"]
+    type: text
+  trabajo_realizado:
+    aliases: ["TRABAJO QUE REALIZABA", "TRABAJO REALIZADO"]
+    type: multiline
+  testigos:
+    aliases: ["TESTIGOS DEL ACCIDENTE", "TESTIGOS"]
+    type: multiline
+  descripcion_accidente:
+    aliases: ["DESCRIPCION CLARA DEL ACCIDENTE", "DESCRIPCIÓN CLARA DEL ACCIDENTE"]
+    type: multiline
+  fallos_o_condiciones:
+    aliases: ["QUE FALLOS O CONDICIONES", "QUÉ FALLOS O CONDICIONES"]
+    type: multiline
+  agente_causante:
+    aliases: ["AGENTE O APARATO QUE PRODUJO LA LESION", "AGENTE O APARATO QUE PRODUJO LA LESIÓN"]
+    type: text
+  riesgo_codigo:
+    aliases: ["CODIGO DE RIESGO", "CÓDIGO DE RIESGO"]
+    type: integer
+  condicion_peligrosa_codigo:
+    aliases: ["CODIGO DE CONDICION PELIGROSA", "CÓDIGO DE CONDICIÓN PELIGROSA"]
+    type: integer
+  causalidad_codigo:
+    aliases: ["CODIGO DE CAUSALIDAD", "CÓDIGO DE CAUSALIDAD"]
+    type: integer
+  medidas_preventivas_correctivas:
+    aliases: ["ACCIONES PREVENTIVAS", "MEDIDAS PREVENTIVAS", "ACCIONES PREVENTIVAS CORRECTIVAS"]
+    type: multiline
